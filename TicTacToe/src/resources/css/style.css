@@ -1,0 +1,127 @@
+.txt {
+    -fx-background-color: #fff;
+    -fx-border-color: #27aae2;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-border-radius: 3px;
+}
+
+.trans {
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+
+.reg {
+    -fx-background-color: #f4f4f4;
+}
+
+.txtplayer {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-border-color: #fff;
+    -fx-text-fill: #fff;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+}
+
+.txtcong {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-border-color: #283135;
+    -fx-text-fill: #283135;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+}
+
+.board {
+    -fx-background-color: #f4f4f4;
+    -fx-border-width: 3px;
+    -fx-background-radius: 5px;
+}
+
+.btn {
+    -fx-background-color: #27aae2;
+    -fx-font-family: Tohama;
+    -fx-font-size: 16px "Serif";
+    -fx-text-fill: #fff;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+.btn:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #27aae2;
+    -fx-border-width: 3px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #fff;
+    -fx-text-fill: #27aae2;
+    -fx-font-weight: bold;
+}
+
+.xbtn {
+    -fx-background-color: #27aae2;
+    -fx-font-family: Tohama;
+    -fx-font-size: 40px "Serif";
+    -fx-text-fill: #fff;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+.xbtn:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #fff;
+    -fx-background-color: #ff262d;
+    -fx-border-width: 3px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+.obtn {
+    -fx-background-color: #27aae2;
+    -fx-font-family: Tohama;
+    -fx-font-size: 40px "Serif";
+    -fx-text-fill: #fff;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+.obtn:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #fff;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-width: 3px;
+    -fx-background-color: #11ee39;
+    -fx-font-weight: bold;
+}
+
+.obtndanger {
+    -fx-background-color: #f17c0d;
+    -fx-font-family: Tohama;
+    -fx-font-size: 16px "Serif";
+    -fx-text-fill: #fff;
+    -fx-border-width: 3px;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+.obtndanger:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #fff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: #ff0000;
+    -fx-font-weight: bold;
+}
+
+.backbtn {
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+
+.btn:pressed,
+.xbtn:pressed,
+.obtn:pressed,
+.obtndanger:pressed {
+    -fx-rotate: 10;
+}
